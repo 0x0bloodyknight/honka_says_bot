@@ -11,6 +11,8 @@ As the Bot API doesn't let you send animated stickers via inline response (yet),
 
 ```bash
 git clone https://github.com/0x0bloodyknight/honka_says_bot.git
+cd honka_says_bot
+git submodule update --init --recursive
 pip install -r requirements.txt
 ```
 
@@ -21,6 +23,8 @@ pip install -r requirements.txt
 `bot_token` can be obtained from @BotFather
 
 ## Launch
+
+_Make sure valid `api_id`, `api_hash` and `bot_token` exist in `settings.py`_
 
 `python bot.py`
 
