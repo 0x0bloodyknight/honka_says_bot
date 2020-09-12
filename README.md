@@ -1,26 +1,29 @@
 # @honka_says_bot - an animated sticker generator bot for Telegram
 
-A Python script to run Honka Says Bot.  
-This simple script will generate text, place it onto a sticker and send it to you using inline feature.
+@honka_says_bot source
+This simple script will generate text, place it onto a sticker and send it to the chat using inline feature.
 
-Its available at https://t.me/honka_says_bot and works in any chat via inline request.
+It's available at <https://t.me/honka_says_bot> and works in private and (almost) in any group chats inline.
 
-As the Bot API doesn't let you send animated stickers via inline response (yet), we have to use something more powerful, like Telethon. It has the tools we need to create what we need.
+As the Bot API doesn't let you send animated stickers via inline response (yet), we have to use something more powerful, like Telethon. It has the tools we need to send animated stickers inline.
 
-# Requirements
+## Installation
 
-This bot uses:  
-`Telethon==1.16.2`  
-`lottie==0.6.5`
-`fonttools==4.14.0`
+```bash
+git clone https://github.com/0x0bloodyknight/honka_says_bot.git
+pip install -r requirements.txt
+```
 
-There is a requirements file to help you with that.
-You will also need to register your custom Telegram Client to use it's credentials with Telethon, please refer to it's documentation.
+## Prerequisites
 
-# Launch
+[api_id and api_hash](https://docs.telethon.dev/en/latest/basic/signing-in.html#signing-in)
 
-Simply run `bot.py`
+`bot_token` can be obtained from @BotFather
 
-# Thanks
+## Launch
+
+`python bot.py`
+
+## Thanks
 
 Big thanks to @winsw1n and @BloodyKnight for logic, and @MattBas for his incredible lottie library ❤
