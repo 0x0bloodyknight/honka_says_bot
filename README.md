@@ -1,9 +1,9 @@
 # @honka_says_bot - an animated sticker generator bot for Telegram
 
 @honka_says_bot source
-This simple script will generate text, place it onto a sticker and send it to the chat using inline feature.
+This simple script will generate text, place it onto a template sticker and send it to the chat using inline feature.
 
-It's available at <https://t.me/honka_says_bot> and works in private and (almost) in any group chats inline.
+It's available at <https://t.me/honka_says_bot> and works in private and (almost) any group chats inline.
 
 As the Bot API doesn't let you send animated stickers via inline response (yet), we have to use something more powerful, like Telethon. It has the tools we need to send animated stickers inline.
 
