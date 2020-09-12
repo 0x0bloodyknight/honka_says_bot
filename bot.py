@@ -17,10 +17,17 @@ from lottie.utils.font import FontStyle
 from lottie.objects.text import TextJustify
 from lottie import objects, Color
 
+try:
+    from systemd import journal
+except ImportError:
+    systemd_available = False
 
-# TODO: better logging
+
 def log(message):
-    print(message)
+    if not systemd_available:
+        print(message)
+    else:
+        journal.send(message)
 
 
 try:
