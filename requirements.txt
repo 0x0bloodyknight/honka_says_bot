@@ -1,4 +1,2 @@
 Telethon==1.16.2
 lottie==0.6.5
-systemd==0.16.1
-fonttools==4.14.0
