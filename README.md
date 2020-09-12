@@ -12,6 +12,7 @@ As the Bot API doesn't let you send animated stickers via inline response (yet),
 This bot uses:  
 `Telethon==1.16.2`  
 `lottie==0.6.5`
+`fonttools==4.14.0`
 
 There is a requirements file to help you with that.
 You will also need to register your custom Telegram Client to use it's credentials with Telethon, please refer to it's documentation.
